@@ -1,0 +1,90 @@
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.modal {
+    position: fixed;
+    top: 20vh;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 18px 48px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    text-align: right;
+}
+
+.modal-content {
+    text-align: center;
+}
+
+.prompt-header {
+    color: #2b2f3e;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.close-button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-size: 32px;
+    line-height: 1;
+    color: #2b2f3e;
+    opacity: .2;
+    text-shadow: 0 1px 0 #fff;
+    cursor: pointer;
+    margin: 0;
+}
+
+.modal input {
+    background-color: rgb(245, 245, 245);
+    border: none;
+    border-radius: 8px;
+    color: rgb(43, 47, 62);
+    empty-cells: show;
+    fill-opacity: 1;
+    font-size: 18px;
+    height: 70px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    width: 35vw;
+    padding: 0 25px;
+}
+
+.modal input::placeholder {
+    color: #b2b2b2;
+    font-family: "HK Nova", sans-serif;
+}
+
+.modal input:focus {
+    outline: none;
+}
+
+.add-button {
+    background-color: rgb(103, 221, 255);
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    height: 60px;
+    line-height: 20px;
+    padding: 0 30px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.add-button:focus {
+    outline: none;
+}
+
+.tnc {
+    font-size: 10px;
+    color: rgb(147, 148, 150);
+}

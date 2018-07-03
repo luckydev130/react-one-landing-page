@@ -1,0 +1,35 @@
+.company {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.company .heading-03-center {
+    color: rgb(82, 85, 87);
+    font-size: 34px;
+    letter-spacing: -0.34px;
+    line-height: 47px;
+    margin-bottom: 40px;
+}
+
+.company .p1-center {
+    color: rgba(39, 42, 45, 0.4);
+    font-size: 18px;
+    letter-spacing: normal;
+    line-height: 34px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.company .heading-02-center {
+    color: rgba(82, 85, 87, 0.8);
+    font-size: 18px;
+    height: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+}
+
+.access-btn-sub-footer {
+    display: flex;
+    justify-content: center;
+}

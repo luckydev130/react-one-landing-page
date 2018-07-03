@@ -1,0 +1,34 @@
+.section-row {
+    display: flex;
+}
+
+.section-column {
+    width: 50%;
+}
+
+.card-content {
+    align-items: center;
+    color: rgb(51, 51, 51);
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    height: 415px;
+    justify-content: center;
+    line-height: 20px;
+    padding: 60px;
+}
+
+.bg {
+    background-image: url("https://global-uploads.webflow.com/59b058f08eeafc0001398a66/59b185b253606e00016b8959_bg-pink-balloon.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div-image-container {
+    height: 100vh;
+}
+
+.div-image-container img {
+    width: 48vw;
+}

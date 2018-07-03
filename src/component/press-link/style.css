@@ -1,0 +1,8 @@
+.press-links {
+    align-items: center;
+    background-color: rgba(204, 251, 255, 0.8);
+    display: flex;
+    height: 135px;
+    justify-content: center;
+    line-height: 20px;
+}

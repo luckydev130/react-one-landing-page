@@ -1,0 +1,62 @@
+.intro {
+    padding: 100px;
+}
+
+.heading-01 {
+    color: rgb(82, 85, 87);
+    font-size: 41px;
+    letter-spacing: -0.41px;
+    line-height: 54px;
+}
+
+.column-text {
+    font-size: 34px;
+    font-weight: 300;
+    font-weight: 300;
+    height: 94px;
+    letter-spacing: -0.34px;
+    line-height: 47px;
+    margin-bottom: 26px;
+}
+
+.p1 {
+    color: rgba(39, 42, 45, 0.4);
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.p1-small {
+    color: rgba(39, 42, 45, 0.5);
+    font-size: 17px;
+    letter-spacing: 0.17px;
+    line-height: 27px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    padding-left: 4px;
+    text-align: left;
+}
+
+.pricing-details {
+    cursor: pointer;
+    display: flex;
+    margin-top: 40px;
+    max-width: 100%;
+    opacity: 0.3;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-top: 2px;
+}
+
+.text-block-pricing {
+    color: rgb(39, 42, 45);
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 0.15px;
+    text-align: left;
+}
+
+.pricing-details img {
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+}

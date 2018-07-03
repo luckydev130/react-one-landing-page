@@ -1,0 +1,91 @@
+.pricing-details-header {
+    align-items: center;
+    color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: center;
+    line-height: 20px;
+    margin-bottom: 80px;
+}
+
+.heading {
+    color: rgb(82, 85, 87);
+    font-size: 34px;
+    height: 47px;
+    line-height: 47px;
+    margin: 0;
+}
+
+.disclaimer-box {
+    align-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(253, 248, 175, 0.7);
+    color: rgb(51, 51, 51);
+    display: block;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 14px;
+    justify-content: center;
+    line-height: 20px;
+    padding-bottom: 30px;
+    padding-top: 100px;
+}
+
+.disclaimer-container {
+    display: flex;
+    /* height: 206px; */
+    justify-content: center;
+}
+
+.disclaimer-column {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 4px solid rgba(82, 85, 87, 0.08);
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
+    box-sizing: border-box;
+    height: 200px;
+    margin: 0 20px;
+    width: 250px;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+}
+
+.disclaimer-column:hover {
+    margin-top: 4px;
+    border-bottom-width: 2px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1);
+}
+
+.disclaimer-column-header {
+    color: rgba(39, 42, 45, 0.3);
+    font-size: 16px;
+    font-weight: 500;
+    height: 36px;
+    letter-spacing: 0.16px;
+    line-height: 36px;
+    max-width: 320px;
+    text-align: center;
+}
+
+.disclaimer-column-text {
+    color: rgba(39, 42, 45, 0.7);
+    font-size: 24px;
+    /* height: 36px; */
+    letter-spacing: -0.24px;
+    line-height: 36px;
+    /* margin-top: 10px; */
+    text-align: center;
+}
+
+.apr-box {
+    margin-top: 54px;
+    display: flex;
+    justify-content: center;
+}
+
+.p1-center {
+    color: rgba(39, 42, 45, 0.4);
+    font-size: 18px;
+    font-weight: 400;
+}
